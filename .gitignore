@@ -1,0 +1,28 @@
+# Node / Bun modules
+node_modules/
+bun.lockb
+
+# Bun build cache (optional, safe to ignore in dev)
+.bun/
+
+# Build output
+/public/main.js
+/public/styles.css
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+bun-debug.log*
+
+# Env
+.env
+.env.local
